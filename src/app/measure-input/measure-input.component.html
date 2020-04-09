@@ -1,0 +1,5 @@
+<div>
+    <label>{{text?text:'Measurement'}}</label>
+    <input type="text" [formControl]="input" (blur)="translate()" [attr.disabled]="isDisabled" placeholder="0'00''" (focus)="onFocus()"
+    />
+</div>
